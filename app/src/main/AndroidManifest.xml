@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vk">
         <activity
+            android:name=".SecondActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
